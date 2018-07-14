@@ -1,0 +1,53 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #E6E6FA;
+}
+#top-div{
+    padding:10px 20px 20px 20px;
+    width:600px;
+}
+
+#bottom-div{
+    padding:10px 20px 20px 20px;
+    width:600px;
+}
+
+#search-div{
+    padding:10px 20px 20px 20px;
+    width:600px;
+}
+
+h4{
+    padding-bottom: 0px;
+    margin: 10px;
+}
+
+table {
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	background-color: DodgerBlue;
+}
+	
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#noteForm{
+    padding: 10px;
+}
