@@ -129,7 +129,7 @@ function deleteRow(noteTitle)
 		notesList.splice(index,1);
 		console.log(notesList);
 		localStorage.setItem("notesList",JSON.stringify(notesList));
-		alert("Deleted " +noteTitle+ " Succesfully!");
+		alert("Deleted " +noteTitle+ "Succesfully!");
 		showList();
 	} 
 	else 
