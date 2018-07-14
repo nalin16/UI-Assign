@@ -1,0 +1,32 @@
+# UI-Assign
+<html>
+<head>
+<script src="main.js"></script>
+<title>UI Assignment</title>
+<link rel="stylesheet" href="styles.css">
+<h1 align="center"> Records Database </h1>
+</head>
+<body onload="init()">
+<div id="top-div" style="border-style: ridge;">
+    <h4> Add new record </h4>
+    <form name="noteForm" onsubmit="saveNote(); return false;" id ="noteForm">
+        <label>Title:</label> 
+        <textarea style="border:2px solid red; border-radius:12px" id="title" rows="2" cols="30" required></textarea><br><br>
+        <label>Description:</label> 
+        <textarea style="border:2px solid red; border-radius:12px" rows="6" cols="30" id="note" required></textarea><br><br>
+        <input type="submit" value="Save">
+    </form>
+</div>
+<br><br><br><br>
+<div id="search-div" style="background-color:Tomato;">
+    <h4>Search Record</h4>
+    <textarea style= "display: inline-block; border-radius:12px" rows="1" cols="20" type="text" id="myInput" onkeyup="search()" placeholder="Search.."></textarea>
+</div>
+<br><br><br>
+<div id="bottom-div" style="border-style: solid; text-align:center" >
+    <h4> Database </h4>
+    <table align="center" id = "ListOfNotes"></table>
+</div>
+
+</body>
+</html>
